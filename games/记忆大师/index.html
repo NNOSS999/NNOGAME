@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>记忆大师</title>
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--
+README!
+
+GAME INSRUCTIONS:
+
+p    - pause
+ESC  - abandon game
+
+Click the big P to choose one of three levels:
+- Casual
+- Medium
+- Hard
+
+The game will save your stats locally, via localStorage.
+Click the F to see your stats.
+
+Click I for these intructions.
+
+Flip is a timed card memory game. When starting a level, there's a red bar on top of the screen that shows how much time you have left.
+Click the green cards to see what symbol they uncover and try to find the matching symbol underneath the other cards.
+Uncover two matching symbols in a row to eliminate them from the game.
+Eliminate all cards as fast as you can to win the game. Have fun FLIPing!
+-->
+
+
+<div id="g"></div>
+	
+<div class="logo">
+  <p class="info">单击P开始。</p>
+  <div class="card left">
+    <div class="flipper">
+      <div class="f c1">F</div>
+      <div class="b contentbox" id="stats">
+        <div class="padded">
+          <h2>数字</h2>
+          看来你还没疯呢。
+          <a href="javascript:;" class="playnow">现在就玩</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card active twist">
+    <div class="flipper">
+      <div class="b f">
+        <div class="c2">L</div>
+      </div>
+    </div>
+  </div>
+  <div class="card left">
+    <div class="flipper">
+      <div class="f c3">I</div>
+      <div class="b contentbox instructions">
+        <div class="padded">
+          <h2>说明书</h2>
+          <p>按[p]暂停，或按[ESC]放弃游戏。</p>
+          <p>“记忆大师”是一种定时的卡片记忆游戏。单击绿卡以查看其显示的符号，并尝试在其他卡下找到匹配的符号。</p>
+          <p>同时发现两个匹配的符号，便会消除。</p>
+          <p>请尽可能快地消除所有牌以赢得游戏。玩得开心哦！</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="flipper">
+      <div class="f c4">P</div>
+      <div class="b contentbox levels">
+        <a href="javascript:;" data-level="8" class="play">轻松的</a>
+        <a href="javascript:;" data-level="18" class="play">略有挑战的</a>
+        <a href="javascript:;" data-level="32" class="play">困难的</a>
+      </div>
+    </div>
+  </div>
+
+  <p class="info">“记忆大师”在谷歌Chrome、Edeg、Firefox、IE10和Opera上运行得最好；</p>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

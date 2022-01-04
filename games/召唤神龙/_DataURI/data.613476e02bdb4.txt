@@ -1,0 +1,1 @@
+chrome-extension://ebkimaahhkeiplegpghijhgmlcdkeppf/static/css/content.css
