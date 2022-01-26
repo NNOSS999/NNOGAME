@@ -1,1 +1,0 @@
-chrome-extension://ljoolhajdkmjfneghpfiofogllcninii/popup.js
