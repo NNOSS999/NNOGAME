@@ -3,7 +3,7 @@
 }
 
 function goHome() {
-	window.location.href ='http://blog.96xy.cn';
+	window.location.href ='https://nnoss.cf/';
 }
 
 function a_submitScore(score) {
@@ -13,7 +13,7 @@ function a_submitScore(score) {
 
 function updateShare(bestScore) {
 	imgUrl = 'http://www.96xy.cn/img/logo.png';
-	lineLink = 'http://blog.96xy.cn';
+	lineLink = 'https://nnoss.cf/';
 	descContent = "这3D转啊转到我头晕！";
 	updateShareScore(bestScore);
 	appid = '';

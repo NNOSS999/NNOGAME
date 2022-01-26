@@ -31,10 +31,10 @@
 <script src="js/index.js"></script>
 <script src="js/flyline.js"></script>
 <script language=javascript>
-		var mebtnopenurl = 'http://blog.96xy.cn/';
+		var mebtnopenurl = 'https://nnoss.cf//';
 		window.shareData = {
 		        "imgUrl": "img/icon.png",
-		        "timeLineLink": "http://blog.96xy.cn/",
+		        "timeLineLink": "https://nnoss.cf//",
 		        "tTitle": "打企鹅-微资源",
 		        "tContent": "打企鹅-微资源"
 		};
@@ -44,7 +44,7 @@
 		}
 		function clickMore(){
 			if((window.location+"").indexOf("zf",1)>0){
-				window.location = "http://blog.96xy.cn/";
+				window.location = "https://nnoss.cf//";
 			 }
 			 else{
 				goHome();
@@ -94,7 +94,7 @@
 		<div style="display: none;">
 			<script type="text/javascript">
             var myData = { gameid: "dqe" };
-			window.shareData.timeLineLink = "http://blog.96xy.cn" + myData.gameid + (localStorage.myuid ? "&uid=" + localStorage.myuid : "");
+			window.shareData.timeLineLink = "https://nnoss.cf/" + myData.gameid + (localStorage.myuid ? "&uid=" + localStorage.myuid : "");
 			function dp_submitScore(score){
 				myData.score = score*10;
 				myData.scoreName = score+"米";
@@ -108,7 +108,7 @@
                 if (localStorage.myuid && myData.score != undefined) {
                     setTimeout(function(){
                         if (confirm("要将成绩提交到星益小游戏平台排行榜吗？")) {
-                            window.location = "http://blog.96xy.cn" + myData.gameid + "&uid=" + localStorage.myuid + "&score=" + myData.score + "&scorename=" + encodeURIComponent(myData.scoreName);
+                            window.location = "https://nnoss.cf/" + myData.gameid + "&uid=" + localStorage.myuid + "&score=" + myData.score + "&scorename=" + encodeURIComponent(myData.scoreName);
                         }
                         else {
                             document.location.href = mebtnopenurl;
