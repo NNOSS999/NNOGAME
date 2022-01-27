@@ -1,0 +1,1 @@
+chrome-extension://jmjbbdidibgpihajabjhcpmodanjgbji/js/request.js
