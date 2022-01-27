@@ -21,7 +21,7 @@ var _STRINGS = {
         Splash: {
             Loading: "正在加载...",
             LogoLine1: "这里有一些文字",
-            LogoLine2: "由MarketJS提供支持（小星汉化）",
+            LogoLine2: "由MarketJS提供支持",
             LogoLine3: "没有人"
         },
         Game: {

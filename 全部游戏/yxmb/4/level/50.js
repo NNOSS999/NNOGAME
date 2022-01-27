@@ -60,7 +60,7 @@
                     }
                 },
                 []);
-                innerText(c, "作者僵尸，来了！注意了，他会分裂出很多复制体！(点击继续)");
+                innerText(c, "NNO僵尸，来了！注意了，他会分裂出很多复制体！(点击继续)");
                 break;
             case 3:
                 PlayAudio("crazydaveshort2");

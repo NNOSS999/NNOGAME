@@ -83,7 +83,7 @@
     var Screen = {
         welcome: function() {
             this.text = '****';
-            this.textSub = 'blog.96xy.cn';
+            this.textSub = 'nnoss.cf';
             this.textColor = 'white';
             this.create();//调用本身的图像绘制方法
         },

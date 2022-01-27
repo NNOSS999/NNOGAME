@@ -86,7 +86,7 @@
                     }
                 },
                 []);
-                innerText(c, "不过，作者僵尸似乎也带兵驻扎在这儿(点击继续)");
+                innerText(c, "不过，NNO僵尸似乎也带兵驻扎在这儿(点击继续)");
                 break;
             case 4:
                 PlayAudio("crazydavelong" + Math.floor(1 + Math.random() * 3));

@@ -2016,7 +2016,7 @@ oSubZombie = InheritO(oSnorkelZombie, {
     beAttackedPointL: 140,
     beAttackedPointR: 290,
     BookHandBack: 4.9,
-    Produce: '强劲有力的机械潜水艇，可以在水中躲过大多数攻击。<p>韧性：<font color="#FF0000">极高</font><br>特点：<font color="#FF0000">潜入水底以避免遭到攻击<br>只在水池关卡出现</font></p>这是由作者僵尸亲自打造的无敌潜水艇,不要妄想击碎他，他的猛烈进攻，只会让你的植物死得更快！。',
+    Produce: '强劲有力的机械潜水艇，可以在水中躲过大多数攻击。<p>韧性：<font color="#FF0000">极高</font><br>特点：<font color="#FF0000">潜入水底以避免遭到攻击<br>只在水池关卡出现</font></p>这是由僵王博士亲自打造的无敌潜水艇,不要妄想击碎他，他的猛烈进攻，只会让你的植物死得更快！。',
     PicArr: (function() {
         var a = "images/Zombies/SubZombie/";
         return ["images/Card/Zombies/SubZombie.png", a + "0.gif", a + "Walk1.gif", a + "Walk2.gif", a + "1.gif", a + "Attack.gif", a + "Head.gif" + $Random, a + "Die.gif" + $Random, a + "Jump.gif" + $Random, a + "Risk.gif" + $Random, a + "Sink.gif" + $Random]
@@ -3569,7 +3569,7 @@ oEmperor = InheritO(oCZombie, {
 }),
 oWJY = InheritO(oEunZombie, {
     EName: "oWJY",
-    CName: "作者僵尸",
+    CName: "NNO僵尸",
     HP: 17000,
     OrnHP: 10000,
     lvl: 8,
@@ -3581,11 +3581,11 @@ oWJY = InheritO(oEunZombie, {
         var a = "images/Zombies/WJY/";
         return ["images/Card/Zombies/WJY.png", a + "0.gif", a + "HeadWalk1.gif", a + "HeadAttack1.gif", a + "LostHeadWalk1.gif", a + "LostHeadAttack1.gif", a + "HeadWalk0.gif", a + "HeadAttack0.gif", a + "LostHeadWalk0.gif", a + "LostHeadAttack0.gif", a + "Head.gif" + $Random, a + "Die.gif" + $Random, "images/Zombies/BoomDie.gif" + $Random, a + "LostNewspaper.gif", a + "1.gif"]
     })(),
-    Produce: '新一代僵王博士登场。<p>体力：<font color="#FF0000">不死之身</font></p>喂！你怎么会在出现在游戏里？我总会听到有玩家这么问。嗯，这都要怪一个叫严启伦的家伙。'
+    Produce: '新一代僵王博士登场。<p>体力：<font color="#FF0000">不死之身</font></p>喂！你怎么会在出现在游戏里？我总会听到有玩家这么问。我只想说：“要你管！”'
 });
 oWJY1 = InheritO(oDuckyTubeZombie1, {
     EName: "oWJY1",
-    CName: "作者僵尸-水",
+    CName: "NNO僵尸-水",
     OSpeed: 0.1,
     Speed: 0.1,
     HP: 20000,

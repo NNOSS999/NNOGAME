@@ -1981,8 +1981,8 @@ SelectModal = function(g) {
     LoadLvl(g)
 },
 GotoAuthorWebsite = function() {
-    alert("江南游戏开发社\n官方网址:http://pvzweb.usa3v.net \n官方QQ群:399624322\n官方邮箱:2583727181@qq.com\n感谢您对本游戏的支持！");
-   alert("现在由Enderexplain开源 \n我的QQ:1509095749\n我也感谢您对本游戏的支持！");
+    alert("N2O INTERACTIVE ENTERTAINMENT修改制作\n官方网址:https://nnoss.cf/ \nNNO官方:https://www.nnoss.tk/\n官方邮箱:liuqirui123@outlook.com\n感谢您对本游戏的支持！");
+   alert("原作来源于PopCap \n开源来自江南游戏\n江南游戏也感谢您对本游戏的支持！");
     return
 },
 InitGame = function() {
@@ -1990,7 +1990,7 @@ InitGame = function() {
     c = $User.Server,
     b = c.List,
     a = $("dProcess"); ! $("dText1") && a.insertBefore(NewEle("dText1", "div", 0, {
-        innerHTML: '<span style="line-height:23px;font-size:15px;font-family:&#x9ED1;&#x4F53;;color:#F60;top:32px">欢迎体验<span style="font-family:Verdana;font-weight:700">新版植物大战僵尸JS</span>,程序是玩家自制,与任何盈利公司无关。<span style="font-family:Verdana;font-weight:700">LonelyStar与江南游戏开发社</span>保留对该程序版权所有,游戏题材、素材、音效归Popcap Games，Electronic Arts所有，个别背景音乐来源免费音乐网站。如您需要转载，请保留以上版权说明，不然视盗版处理。</span>'
+        innerHTML: '<span style="line-height:23px;font-size:15px;font-family:&#x9ED1;&#x4F53;;color:#F60;top:32px">欢迎体验<span style="font-family:Verdana;font-weight:700">新·植物大战僵尸终极版</span>,程序是公益自制,与任何盈利公司无关。<span style="font-family:Verdana;font-weight:700">N2O INTERACTIVE ENTERTAINMENT</span>仅为修改，游戏题材、素材、音效归Popcap Games，Electronic Arts所有，个别背景音乐来源免费音乐网站。</span>'
     },
     0), a.firstChild);
     LoadLvl()

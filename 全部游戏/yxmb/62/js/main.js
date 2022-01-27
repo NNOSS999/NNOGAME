@@ -126,7 +126,7 @@
         }
         // 未实现
         ui.onshowcup = ui.onshowcore = ui.onshowmore = ui.onshare = function() {
-            alert('星益小游戏平台\n游戏作者：<御剑神兵> 【源码下载：blog.96xy.cn】');
+            alert('nnoss.cf\n更多尽在：nnoss.cf');
         }
     }
 
