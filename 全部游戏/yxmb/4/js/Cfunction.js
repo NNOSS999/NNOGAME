@@ -1981,7 +1981,7 @@ SelectModal = function(g) {
     LoadLvl(g)
 },
 GotoAuthorWebsite = function() {
-    alert("N2O INTERACTIVE ENTERTAINMENT修改制作\n官方网址:https://nnoss.cf/ \nNNO官方:https://www.nnoss.tk/\n官方邮箱:liuqirui123@outlook.com\n感谢您对本游戏的支持！");
+    alert("N2O INTERACTIVE ENTERTAINMENT修改制作\n官方网址:https://nnoss.cf/ \nNNO官方:https://www.nnoss.space/\n官方邮箱:liuqirui123@outlook.com\n感谢您对本游戏的支持！");
    alert("原作来源于PopCap \n开源来自江南游戏\n江南游戏也感谢您对本游戏的支持！");
     return
 },
